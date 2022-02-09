@@ -1,0 +1,210 @@
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1em !important;
+  padding-right: 1em !important; }
+
+.navbar .nav-item.active {
+  border-left: #444 3px solid; }
+
+.carousel-item {
+  height: 500px; }
+
+.carousel-image-1 {
+  background: url("../img/gym.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+             }
+
+.carousel-image-2 {
+  background: url("../img/casa.jpg");
+  background-size: cover; 
+  background-attachment: fixed;}
+
+.carousel-image-3 {
+  background: url("../img/restaurant.jpg");
+  background-size: cover;
+  background-attachment: fixed; }
+
+.carousel-image-4 {
+    background: url("../img/negocioDigital.jpg");
+    background-size: cover;
+    background-attachment: fixed; }
+.carousel-image-5 {
+      background: url("../img/talento.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+      
+             }
+     
+  #letra1{
+   font-weight: bolder;
+   font-family:serif ;
+    color: rgba(224, 14, 32, 0.986);
+  } 
+  #letra2{
+    font-family: serif;
+    font-weight: 900;
+    color: ivory;
+  }
+  #letra3{
+    font-family:serif;
+    font-weight: 900;
+    color: whitesmoke;
+  }
+  #letra4{
+    font-family: serif;
+    font-weight: 900;
+    color: rgba(30, 87, 243, 0.986);
+  }
+ 
+  #home-icons{
+     background-color: rgba(255, 255, 255, 0.979);
+    height: 260px;
+  }
+  .fa{
+    font-size: 45px;
+  }
+  .lead{
+    font-weight: 400;
+  }
+  #home-heading {
+    position: relative;
+    min-height: 200px;
+    background: url("../img/pexels-misael-garcia-1707825.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff; }
+  
+  .dark-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+    body{
+overflow-x: hidden;
+    }
+    #last{
+
+height: 120px;
+background-color: rgb(31, 30, 30);
+color: azure;
+    }
+    #dineromoviente{
+      width: 50px;
+      background-color:white;
+      position: relative;
+     animation-name:EuroCambiaColores ;
+     animation-duration: 5s;
+     animation-iteration-count: infinite;
+    }
+@keyframes EuroCambiaColores{
+    0%{background-color:rgba(250, 250, 250, 0.986);left: 0px;top: 0px;} 
+    25%{background-color:rgba(214, 212, 212, 0.979);left: 200px;top: 0px;} 
+    50%{background-color:rgba(184, 181, 181, 0.7);left: 500px;top: 0px;} 
+    75%{background-color:rgba(87, 84, 84, 0.7);left: 200px;top: 0px;} 
+    100%{background-color:rgba(78, 77, 77, 0.7);left: 0px;top: 0px;} 
+
+}
+#letrafooter{
+  font-family:serif;
+}
+.border{
+border-width: 15px;
+}
+.modal{
+  color: black;
+}
+.imagen1{
+width: 300px;
+height: 200px;
+
+}
+#ejemplos{
+  background-color: #fff;
+}
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/media.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  text-align: center;
+  color: #fff; }
+  #video-play a {
+    color: #fff; }
+
+    #page-header {
+      position: relative;
+      height: 400px;
+      background: url("../img/image2.jpg");
+      background-position: 0 -360px;
+      background-attachment: fixed;
+      color: #fff;
+      border-bottom: 1px #eee solid;
+      padding-top: 50px; }
+    
+    #about img {
+      margin-top: -50px; }
+    
+    #faq .card {
+      border: #444; }
+      #faq .card a {
+        color: #fff;
+        text-decoration: none; }
+    
+    #faq .card-body, #faq .card-header {
+      background: #333; }
+      .grandchild{
+        float:left;
+      }
+    
+     
+     div.col-3 .card:hover{
+           background-color: rgba(148, 157, 158, 0.945);
+      }
+      div.p-4 i.fa{
+           font-size: 15px;
+      }
+      #about img {
+        margin-top: -50px; 
+          height: 400px;
+        width: 650px;}
+      
+      #faq .card {
+        border: #444; }
+        #faq .card a {
+          color: #fff;
+          text-decoration: none; }
+      
+      #faq .card-body, #faq .card-header {
+        background: #333; }
+        .nada{
+          text-decoration: none;
+          color: black;
+        }
+        .nada:hover{
+           color: black;
+           text-decoration: none;
+        }
+      .letrachula{
+        font-weight: bolder;
+      
+      }
+      .bigger{
+        background-color: black;
+       
+      }
+      hr.rayanegra{
+        background-color: #444;
+        
+      }
+      .fa-camera{
+        font-size: 60px;
+       
+      }
